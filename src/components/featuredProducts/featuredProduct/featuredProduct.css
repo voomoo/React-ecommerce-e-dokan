@@ -1,0 +1,11 @@
+.featured__product{
+    display: flex;
+    justify-content: center;
+}
+
+.featured__product img{
+    max-height: 120px;
+    margin: 10px auto;
+    width: auto;
+
+}

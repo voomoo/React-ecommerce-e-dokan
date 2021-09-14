@@ -1,0 +1,18 @@
+.carousel__slide{
+    width: 100%;
+    height: 500px;
+    background: url("../../../images/Rectangle\ 13.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel__slide > h1{
+    color: white;
+    font-size: 48px;
+    max-width: 400px;
+    margin: 40px 70px;
+} 
+
+.carousel__slide > button{
+    margin: 10px 70px;
+}

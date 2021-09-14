@@ -1,0 +1,27 @@
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: #79B4B7 !important;
+  font-size: 36px !important;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: #24afb6 !important;
+}
+
+.slick-dots li button{
+    background-color: #79B4B7 !important;
+    opacity: 0.5 !important;
+}
+
+.slick-dots li.slick-active button{
+    background-color: #79B4B7 !important;
+    opacity: 1 !important;
+}
+
+
+.featured__products{
+    margin: 20px 0px;
+}

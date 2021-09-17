@@ -1,0 +1,36 @@
+.single__product{
+    background-color: white;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.single__product .image__container{
+    display: flex;
+    justify-content: center;
+}
+
+.single__product img{
+    max-width: 500px;
+    max-height: 500px;
+    padding: 80px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
+
+.single__product .comments__section{
+    margin: 80px 0px;
+}
+
+.single__product .comment__title{
+    background-color: #79b4b77e;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+
+.single__loading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #FCFCFC;
+}

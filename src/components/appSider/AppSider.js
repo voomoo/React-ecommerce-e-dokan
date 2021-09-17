@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./appSider.css";
 import { Layout, List } from "antd";
 import { BiHome, BiCartAlt, BiHeartCircle } from "react-icons/bi"
@@ -18,7 +19,7 @@ const AppSider = () => {
             avatar={
               <BiHome size={18}/>
             }
-            title={<a href="https://ant.design">Home</a>}
+            title={<Link to="/">Home</Link>}
           />
         </List.Item>
         
@@ -27,7 +28,7 @@ const AppSider = () => {
             avatar={
               <AiOutlineInbox size={18}/>
             }
-            title={<a href="https://ant.design">Products</a>}
+            title={<Link to="/products">Products</Link>}
           />
         </List.Item>
 

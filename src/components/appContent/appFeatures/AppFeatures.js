@@ -6,7 +6,7 @@ import "./appFeatures.css";
 
 const AppFeatures = () => {
   return (
-    <Row className="app__features">
+    <Row className="app__features container">
       <Col span={6}>
         <AppFeature icon={<FaGift size={48} style={{color:"#79B4B7"}}/>} title="BONUS PLUS" desc="Get a bonus plus for buying more that three products" />
       </Col>

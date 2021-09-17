@@ -1,5 +1,6 @@
 import { Card, Button, Typography } from "antd";
 import React from "react";
+import {Link} from "react-router-dom"
 import { useSelector, useDispatch } from "react-redux";
 import {
   selectCartData,
@@ -37,7 +38,7 @@ const FeaturedProduct = ({ id, img, title, desc, loading }) => {
         ]}
       >
         <Meta
-          title={title}
+          title={<Link to={`/product/${id}`}>{title}</Link>}
           description={
             <Typography.Paragraph
               ellipsis={{ rows: 2, expandable: true, symbol: "more" }}
